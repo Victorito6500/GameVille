@@ -28,12 +28,15 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        User::create([
+
+        $user = User::create([
             'isAdmin' => true,
             'name'     => 'Admin',
             'email'    => 'admin@gmail.com',
             'password' => Hash::make('admin123')
         ]);
+        $user->isAdmin = true;
+        $user->save();
     }
 
     /**
