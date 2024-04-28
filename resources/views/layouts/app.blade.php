@@ -14,8 +14,8 @@
 
     <!-- Scripts -->
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ secure_asset('public/build/assets/app-RS_SKoGw.css') }}">
-    <script src="{{ secure_asset(' public/build/assets/app-CifqVuM1.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ secure_asset('resources/css/app.css') }}">
+    <script src="{{ secure_asset('resources/js/app.js') }}" defer></script>
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
