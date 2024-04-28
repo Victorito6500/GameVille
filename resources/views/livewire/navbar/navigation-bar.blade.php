@@ -234,7 +234,7 @@
                     <x-responsive-nav-link :active="$active_catalog">
                         <form action="{{ route('catalog') }}" method="POST" class="h-full w-full">
                             @csrf
-                            <button type="submit" class="h-full w-full">Catálogo</button>
+                            <button type="submit" class="h-full w-full text-start">Catálogo</button>
                         </form>
                     </x-responsive-nav-link>
                 @endif

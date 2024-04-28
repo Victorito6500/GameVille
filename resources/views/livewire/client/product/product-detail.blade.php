@@ -46,7 +46,8 @@
                     <input type="hidden" name="platform_id" value="{{ $selected_platform }}">
                     <input type="hidden" name="category_id" value="{{ $selected_category }}">
 
-                    <x-button type="submit" class="col-span-8 w-full bg-red-600 hover:bg-red-700 active:bg-red-800">
+                    <x-button type="submit"
+                        class="{{ $col_span }} w-full bg-red-600 hover:bg-red-700 active:bg-red-800">
                         Ver más...
                     </x-button>
                 </form>
