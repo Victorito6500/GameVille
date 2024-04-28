@@ -14,34 +14,6 @@ class ProductSeeder extends Seeder
     {
         $products = [
             [
-                'name' => 'Sony PlayStation 5 Slim Chassis D + FIFA 24',
-                'description' => "Compra la consola PlayStation 5 Slim Chassis D más el juego EA Sports FC24 y descubre una nueva era de fútbol de nueva generación para The World's Game: más de 19 000 futbolistas con licencia, 700 equipos y 30 ligas en la experiencia futbolística más auténtica hasta la fecha.
-
-                Siente cada partido como nunca antes con tres tecnologías de vanguardia que ofrecen un realismo sin parangón en todos los partidos: HyperMotionV, PlayStyles optimizado por Opta y el nuevo motor de Frostbite.
-                
-                Mantén tus títulos favoritos listos para jugar con 1 TB de almacenamiento SSD integrado y gracias la integración de sistemas personalizados que permite obtener datos del SSD tan rápidamente para la creación de juegos únicos y exclusivos.
-                
-                Sumérgete en nuevos mundos con un nuevo nivel de realismo total mientras los rayos de luz se simulan individualmente, creando sombras y reflejos realistas en los juegos gracias a tu televisor o monitor 4K.
-                
-                Disfruta de un juego fluido con una velocidad de hasta 120 fps en juegos, con soporte para salida de 120 Hz en pantallas 4K y tecnología HDR en donde los juegos de PS5 compatibles muestran una gama de colores increíblemente vibrante y realista.
-                
-                Déjate envolver por el entorno sonoro, como si el sonido se emitiera en todas direcciones. A través de tus auriculares, altavoces, barra de sonido, etc, tu entorno cobra vida con Tempest 3D AudioTech en los juegos compatibles.
-                
-                Disfruta de la retroalimentación háptica a través del mando inalámbrico DualSense y siente los efectos y el impacto de tus acciones en el juego a través de la retroalimentación sensorial dinámica.
-                
-                Descubre botones adaptativos inmersivos, con niveles de resistencia dinámica que simulan el impacto físico de las actividades del juego.
-                
-                La consola PS5 es compatible con más de 4000 juegos de PS4. Con la función de juego mejorada, puedes incluso disfrutar de velocidades de fotogramas más rápidas y fluidas en algunos de los mejores juegos de la consola de antigua generación.",
-                'release_date' => '2024-02-26',
-                'developers' => 'Sony',
-                'category_id' => 3,
-                'genre_id' => null,
-                'platform_id' => 6,
-                'image_path' => 'console-fifa24-ps5.png',
-                'price' => 599.99,
-                'stock' => 3
-            ],
-            [
                 'name' => 'Grand Theft Auto 5 PS5',
                 'description' => "Compra el juego de Grand Theft Auto V para PS5 y disfruta de toda la potencia de la nueva generación para este superventas con esta increíble remasterización.
 

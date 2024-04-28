@@ -3,8 +3,6 @@
 /public/hot
 /storage/*.key
 /storage/app/public/livewire-tmp
-/storage/app/public/icons
-/storage/app/public/images/products
 /vendor
 .env
 .env.backup
