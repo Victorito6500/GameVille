@@ -80,7 +80,7 @@ html {
 }
 
 .login-body {
-    background-image: url("../../public/storage/images/login-bg.jpg");
+    background-image: url("../../storage/images/login-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ html {
 }
 
 .home-header {
-    background-image: url("../../public/storage/images/home-header-bg.jpg");
+    background-image: url("../../storage/images/home-header-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
