@@ -13,9 +13,7 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ secure_asset('public/build/assets/app-RS_SKoGw.css') }}">
-    <script src="{{ secure_asset(' public/build/assets/app-CifqVuM1.js') }}" defer></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/2372df6e61.js" crossorigin="anonymous"></script>
