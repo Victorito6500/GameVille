@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes close {
+    from {
+        display: flex;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes tilt-n-move-shaking {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(1px, -8px) rotate(1deg);
+    }
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+    75% {
+        transform: translate(-1px, -8px) rotate(-1deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+@keyframes vertical-shaking {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.animation-vertical-shake {
+    animation: vertical-shaking 1.7s infinite;
+}
+.animation-shake {
+    animation: tilt-n-move-shaking 0.8s infinite;
+}
+
+.close-alert {
+    display: none;
+}
+
+.open-alert {
+    animation: open 500ms;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+.login-body {
+    background-image: url("../../public/storage/images/login-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home-header {
+    background-image: url("../../public/storage/images/home-header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 300px;
+}
+
+.logo-shadow {
+    filter: drop-shadow(0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.589));
+}
+
+.category-button {
+    width: 150px;
+    height: 150px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(220 38 38);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(185 28 28);
+    cursor: pointer;
+}
+
+aside ::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+aside ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.bg-red-dark {
+    background-color: rgb(13, 0, 0);
+}
