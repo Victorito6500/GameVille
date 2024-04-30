@@ -75,7 +75,7 @@
             <x-input-error for="email" class="mt-2" />
         </div>
 
-        @if (Auth::user()->isAdmin = !1)
+        @if (Auth::user()->isAdmin != 1)
             <!-- Address -->
             <div class="col-span-6 sm:col-span-4">
                 <x-label for="address" value="{{ __('Dirección') }}" />
