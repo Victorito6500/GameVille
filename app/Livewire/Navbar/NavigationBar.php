@@ -72,17 +72,17 @@ class NavigationBar extends Component
             $this->active_products = true;
         }
 
-        if (request()->routeIs('admin.category.*')) {
+        if (request()->routeIs(['admin.category', 'admin.category.*'])) {
             $this->active_products = true;
             $this->active_categories = true;
         }
 
-        if (request()->routeIs('admin.genre.*')) {
+        if (request()->routeIs(['admin.genre', 'admin.genre.*'])) {
             $this->active_products = true;
             $this->active_genres = true;
         }
 
-        if (request()->routeIs('admin.platform.*')) {
+        if (request()->routeIs(['admin.platform', 'admin.platform.*'])) {
             $this->active_products = true;
             $this->active_platforms = true;
         }
