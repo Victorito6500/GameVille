@@ -53,7 +53,7 @@ class NavigationBar extends Component
             $this->active_home = true;
         }
 
-        if (request()->routeIs('catalog')) {
+        if (request()->routeIs(['catalog', 'catalog.*'])) {
             $this->active_catalog = true;
         }
     }
@@ -64,11 +64,11 @@ class NavigationBar extends Component
             $this->active_home = true;
         }
 
-        if (request()->routeIs('admin.order')) {
+        if (request()->routeIs(['admin.order', 'admin.order.*'])) {
             $this->active_orders = true;
         }
 
-        if (request()->routeIs('admin.product')) {
+        if (request()->routeIs(['admin.product', 'admin.product.*'])) {
             $this->active_products = true;
         }
 
@@ -87,7 +87,7 @@ class NavigationBar extends Component
             $this->active_platforms = true;
         }
 
-        if (request()->routeIs('admin.user')) {
+        if (request()->routeIs(['admin.user', 'admin.user.*'])) {
             $this->active_users = true;
         }
     }
